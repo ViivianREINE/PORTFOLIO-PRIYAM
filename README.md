@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Priyam Parashar — Portfolio
 
 A luxury, research-grade AI systems developer portfolio built with React + Vite + TailwindCSS + Framer Motion.
