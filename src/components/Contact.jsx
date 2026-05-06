@@ -1,41 +1,10 @@
-import { useRef, useState } from 'react'
+import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
-import { Mail, Github, Linkedin, Send, MapPin, MessageCircle } from 'lucide-react'
-
-const apiBaseUrl = import.meta.env.VITE_API_BASE_URL || '/api'
+import { Mail, Github, Linkedin, MapPin, MessageCircle } from 'lucide-react'
 
 export default function Contact() {
   const ref = useRef(null)
   const inView = useInView(ref, { once: true, margin: '-80px' })
-  const [form, setForm] = useState({ name: '', email: '', message: '' })
-  const [status, setStatus] = useState(null)
-  const [loading, setLoading] = useState(false)
-
-  const handleSubmit = async (e) => {
-    e.preventDefault()
-    setStatus(null)
-    setLoading(true)
-
-    try {
-      const response = await fetch(`${apiBaseUrl}/contact`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(form),
-      })
-
-      if (!response.ok) {
-        const error = await response.json()
-        throw new Error(error?.error || 'Unable to send message')
-      }
-
-      setForm({ name: '', email: '', message: '' })
-      setStatus('Message sent successfully. I will get back to you soon.')
-    } catch (error) {
-      setStatus(`Failed to send message: ${error.message}`)
-    } finally {
-      setLoading(false)
-    }
-  }
 
   return (
     <section
@@ -159,86 +128,32 @@ export default function Contact() {
             </div>
           </motion.div>
 
-          {/* Right — Form */}
+          {/* Right — CTA */}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.9, delay: 0.3 }}
+            className="flex flex-col justify-center"
           >
-            <form onSubmit={handleSubmit} className="space-y-4">
-              {[
-                { key: 'name', label: 'Your Name', type: 'text', placeholder: 'Jane Doe' },
-                { key: 'email', label: 'Email Address', type: 'email', placeholder: 'hello@example.com' },
-              ].map(field => (
-                <div key={field.key}>
-                  <label
-                    className="section-label block mb-2"
-                    style={{ fontSize: '0.65rem' }}
-                  >
-                    {field.label}
-                  </label>
-                  <input
-                    type={field.type}
-                    value={form[field.key]}
-                    onChange={e => setForm({ ...form, [field.key]: e.target.value })}
-                    placeholder={field.placeholder}
-                    required
-                    className="w-full px-4 py-3 rounded-xl text-sm outline-none transition-all"
-                    style={{
-                      background: 'rgba(255,255,255,0.8)',
-                      border: '1px solid rgba(212,184,150,0.3)',
-                      color: 'var(--espresso)',
-                      fontFamily: 'DM Sans',
-                    }}
-                    onFocus={e => e.target.style.borderColor = 'var(--sand)'}
-                    onBlur={e => e.target.style.borderColor = 'rgba(212,184,150,0.3)'}
-                  />
-                </div>
-              ))}
-
-              <div>
-                <label className="section-label block mb-2" style={{ fontSize: '0.65rem' }}>
-                  Message
-                </label>
-                <textarea
-                  value={form.message}
-                  onChange={e => setForm({ ...form, message: e.target.value })}
-                  placeholder="Tell me about your project or opportunity..."
-                  rows={5}
-                  required
-                  className="w-full px-4 py-3 rounded-xl text-sm outline-none transition-all resize-none"
-                  style={{
-                    background: 'rgba(255,255,255,0.8)',
-                    border: '1px solid rgba(212,184,150,0.3)',
-                    color: 'var(--espresso)',
-                    fontFamily: 'DM Sans',
-                  }}
-                  onFocus={e => e.target.style.borderColor = 'var(--sand)'}
-                  onBlur={e => e.target.style.borderColor = 'rgba(212,184,150,0.3)'}
-                />
-              </div>
-
-              <motion.button
-                type="submit"
-                disabled={loading}
-                className="w-full flex items-center justify-center gap-2 py-3.5 rounded-xl text-sm font-medium transition-all disabled:cursor-not-allowed disabled:opacity-70"
+            <div className="space-y-4">
+              <p className="text-base" style={{ color: 'var(--mocha)', fontFamily: 'DM Sans', opacity: 0.9 }}>
+                Reach out directly via email to discuss collaborations, opportunities, or just to say hello!
+              </p>
+              <motion.a
+                href="mailto:priyamm.007.parashar@gmail.com"
+                className="inline-block px-8 py-3.5 rounded-xl text-sm font-medium transition-all"
                 style={{
-                  background: status?.startsWith('Failed') ? '#A24D4D' : 'var(--espresso)',
+                  background: 'var(--espresso)',
                   color: 'var(--cream)',
                   fontFamily: 'DM Sans',
+                  width: 'fit-content',
                 }}
-                whileHover={{ scale: !loading ? 1.02 : 1, y: !loading ? -1 : 0 }}
-                whileTap={{ scale: !loading ? 0.97 : 1 }}
+                whileHover={{ scale: 1.05, y: -2 }}
+                whileTap={{ scale: 0.95 }}
               >
-                <Send size={15} />
-                {loading ? 'Sending...' : 'Send Message'}
-              </motion.button>
-              {status && (
-                <p className="text-sm mt-2" style={{ color: status.startsWith('Failed') ? '#A24D4D' : '#3A6B35', fontFamily: 'DM Sans' }}>
-                  {status}
-                </p>
-              )}
-            </form>
+                Send Email
+              </motion.a>
+            </div>
           </motion.div>
         </div>
       </div>
