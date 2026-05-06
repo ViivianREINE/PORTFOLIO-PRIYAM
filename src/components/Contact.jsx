@@ -65,7 +65,7 @@ export default function Contact() {
                 {
                   icon: MessageCircle,
                   label: 'Availability',
-                  value: 'Open to collaborations & internships',
+                  value: 'Open to collaborations, internships, and full-time opportunities',
                 },
               ].map(({ icon: Icon, label, value, href }) => (
                 <div key={label} className="flex items-start gap-4">

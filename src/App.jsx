@@ -96,6 +96,16 @@ export default function App() {
   const [loading, setLoading] = useState(true)
   const [scrollProgress, setScrollProgress] = useState(0)
   const [cursorPos, setCursorPos] = useState({ x: -300, y: -300 })
+  const [theme, setTheme] = useState(() => {
+    if (typeof window === 'undefined') return 'light'
+    return localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+  })
+
+  // Theme mode
+  useEffect(() => {
+    document.documentElement.classList.toggle('dark', theme === 'dark')
+    localStorage.setItem('theme', theme)
+  }, [theme])
 
   // Scroll progress
   useEffect(() => {
@@ -148,7 +158,7 @@ export default function App() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8 }}
         >
-          <Navbar />
+          <Navbar theme={theme} setTheme={setTheme} />
           <main>
             <Hero />
             <About />
