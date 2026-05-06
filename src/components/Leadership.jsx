@@ -69,7 +69,7 @@ export default function Leadership() {
           </h2>
         </motion.div>
 
-        <div className="grid lg:grid-cols-3 gap-8">
+        <div className="grid lg:grid-cols-3 gap-6">
           {/* Left — roles */}
           <div className="lg:col-span-2 grid sm:grid-cols-2 gap-4">
             {roles.map((role, i) => {

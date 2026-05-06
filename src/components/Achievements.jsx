@@ -81,9 +81,9 @@ export default function Achievements() {
           </h2>
         </motion.div>
 
-        <div className="grid lg:grid-cols-5 gap-8 items-start">
-          {/* Left — Achievement cards */}
-          <div className="lg:col-span-3 grid sm:grid-cols-2 gap-4">
+        <div className="grid lg:grid-cols-3 gap-6 mb-16">
+          {/* Achievement cards */}
+          <div className="lg:col-span-2 grid sm:grid-cols-2 gap-4">
             {achievements.map((ach, i) => {
               const { icon: Icon, title, subtitle, desc, accent, accentDark, rank } = ach
               return (
@@ -143,12 +143,12 @@ export default function Achievements() {
             })}
           </div>
 
-          {/* Right — Photo showcase */}
+          {/* Photo showcase */}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 1, delay: 0.3 }}
-            className="lg:col-span-2"
+            className="lg:col-span-1 flex flex-col justify-start"
           >
             <div className="relative">
               <motion.div
@@ -161,19 +161,19 @@ export default function Achievements() {
                   src={hackathonImg}
                   alt="Meta Hackathon"
                   className="w-full object-cover"
-                  style={{ maxHeight: '480px', objectPosition: 'center top' }}
+                  style={{ maxHeight: '320px', objectPosition: 'center top' }}
                 />
               </motion.div>
 
               {/* Caption */}
               <motion.div
-                className="absolute -bottom-5 left-4 right-4 glass-warm rounded-2xl p-4"
+                className="absolute -bottom-4 left-3 right-3 glass-warm rounded-xl p-3"
                 animate={{ y: [0, -4, 0] }}
                 transition={{ duration: 5, repeat: Infinity, ease: 'easeInOut' }}
               >
-                <p className="section-label" style={{ fontSize: '0.6rem' }}>Meta × OpenEnv Hackathon</p>
-                <p className="text-xs font-medium mt-0.5" style={{ color: 'var(--espresso)', fontFamily: 'DM Sans' }}>
-                  India's Biggest AI Hackathon — Grand Finalist
+                <p className="section-label" style={{ fontSize: '0.55rem' }}>Meta × OpenEnv Hackathon</p>
+                <p className="text-xs font-medium mt-0.5" style={{ color: 'var(--espresso)', fontFamily: 'DM Sans', fontSize: '0.7rem' }}>
+                  Grand Finalist
                 </p>
               </motion.div>
             </div>
