@@ -1,150 +1,358 @@
-<<<<<<< HEAD
-# Priyam Parashar — Portfolio
+<div align="center">
 
-A luxury, research-grade AI systems developer portfolio built with React + Vite + TailwindCSS + Framer Motion.
+# ✦ PRIYAM PARASHAR
 
-**Design Language:** Soft pastel yellow, pastel pink, warm beige, ivory, and muted brown — evoking an Apple × Notion × Luxury AI Research Lab aesthetic.
+### AI • Technology • Research • Creative Engineering
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3B241C,25:8B5E52,50:D8A7A0,75:F3D9A5,100:F8F1E7&height=180&section=header&text=Building%20intelligent%20things,%20beautifully.&fontSize=30&fontColor=FFF9F3&animation=fadeIn&fontAlignY=65"/>
+
+<br/>
+
+**A personal portfolio where engineering meets research,  
+artificial intelligence, and thoughtful digital experiences.**
+
+<br/>
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-F8F1E7?style=for-the-badge&logo=vercel&logoColor=3B241C)](https://portfolio-priyam-ten.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-D8A7A0?style=for-the-badge&logo=github&logoColor=3B241C)](https://github.com/ViivianREINE)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-F3D9A5?style=for-the-badge&logo=linkedin&logoColor=3B241C)](https://www.linkedin.com/in/priyam-parashar-5b0b67273/)
+
+</div>
 
 ---
 
-## ⚡ Tech Stack
+## 𓂃 ABOUT
 
-- **React 18** — Component architecture
-- **Vite 5** — Ultra-fast build tool
-- **TailwindCSS 3** — Utility-first styling
-- **Framer Motion 11** — Premium animations
-- **Lucide React** — Beautiful icons
-- **Google Fonts** — Cormorant Garamond, Playfair Display, DM Sans, Manrope
+> **Technology should be intelligent.  
+> Experiences should be intentional.**
+
+This portfolio is a curated representation of my work across **Artificial Intelligence, Machine Learning, software engineering, research, and creative technology**.
+
+Rather than functioning as a conventional resume website, the experience is designed as a digital space where projects, research, experiments, achievements, and technical interests come together through a calm, editorial interface.
+
+Every section is intentionally designed around the idea of:
+
+**clarity · intelligence · elegance · curiosity**
 
 ---
 
-## 🚀 Getting Started
+## ✦ THE EXPERIENCE
 
-### Prerequisites
-- Node.js 18+ 
-- npm 9+
+The portfolio combines a soft editorial aesthetic with modern frontend engineering.
 
-### Run Locally
+```text
+                 PRIYAM PARASHAR
+                        │
+        ┌───────────────┼───────────────┐
+        │               │               │
+     RESEARCH        ENGINEERING       AI
+        │               │               │
+        └───────────────┼───────────────┘
+                        │
+                  DIGITAL CRAFT
+                        │
+                  HUMAN EXPERIENCE
+````
+
+### ✧ Designed to feel like
+
+`Apple` × `Notion` × `Luxury Editorial` × `AI Research Lab`
+
+with a visual language built around:
+
+**Rose Gold** `#D8A7A0`
+**Dusty Pink** `#C98F8F`
+**Butter Yellow** `#F3D9A5`
+**Warm Beige** `#E8D8C8`
+**Ivory** `#F8F1E7`
+**Mocha Brown** `#3B241C`
+
+---
+
+## 𓆩 PROJECTS
+
+A collection of experiments and systems spanning AI, computer vision, machine learning, data intelligence, and software engineering.
+
+### ✦ Artificial Intelligence
+
+Intelligent systems designed to transform complex data into useful insights, predictions, and decisions.
+
+### ✦ Computer Vision
+
+Visual intelligence systems exploring detection, classification, explainability, and real-time analysis.
+
+### ✦ Machine Learning
+
+Predictive models, analytical pipelines, feature engineering, model evaluation, and applied ML experimentation.
+
+### ✦ Research
+
+Projects exploring the intersection of biotechnology, AI, multimodal intelligence, healthcare, and emerging technologies.
+
+### ✦ Creative Technology
+
+Interfaces where technical functionality meets visual storytelling, interaction design, and digital craftsmanship.
+
+---
+
+## ✧ TECHNOLOGY
+
+<div align="center">
+
+### FRONTEND
+
+![React](https://img.shields.io/badge/React-3B241C?style=flat-square\&logo=react\&logoColor=F8F1E7)
+![Vite](https://img.shields.io/badge/Vite-D8A7A0?style=flat-square\&logo=vite\&logoColor=3B241C)
+![JavaScript](https://img.shields.io/badge/JavaScript-F3D9A5?style=flat-square\&logo=javascript\&logoColor=3B241C)
+![Tailwind](https://img.shields.io/badge/Tailwind-E8D8C8?style=flat-square\&logo=tailwindcss\&logoColor=3B241C)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-F8F1E7?style=flat-square\&logo=framer\&logoColor=3B241C)
+
+### AI / ML
+
+![Python](https://img.shields.io/badge/Python-3B241C?style=flat-square\&logo=python\&logoColor=F8F1E7)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-D8A7A0?style=flat-square\&logo=tensorflow\&logoColor=3B241C)
+![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-F3D9A5?style=flat-square\&logo=scikitlearn\&logoColor=3B241C)
+![PyTorch](https://img.shields.io/badge/PyTorch-E8D8C8?style=flat-square\&logo=pytorch\&logoColor=3B241C)
+
+### DEVELOPMENT
+
+![Git](https://img.shields.io/badge/Git-F8F1E7?style=flat-square\&logo=git\&logoColor=3B241C)
+![GitHub](https://img.shields.io/badge/GitHub-3B241C?style=flat-square\&logo=github\&logoColor=F8F1E7)
+![Node](https://img.shields.io/badge/Node.js-D8A7A0?style=flat-square\&logo=node.js\&logoColor=3B241C)
+![FastAPI](https://img.shields.io/badge/FastAPI-F3D9A5?style=flat-square\&logo=fastapi\&logoColor=3B241C)
+
+</div>
+
+---
+
+## 𓂃 DESIGN LANGUAGE
+
+The interface follows a deliberately soft visual system.
+
+```text
+┌─────────────────────────────────────────────┐
+│                                             │
+│   ROSE GOLD       #D8A7A0                   │
+│   The accent                                   │
+│                                             │
+│   DUSTY PINK      #C98F8F                   │
+│   The emotion                                │
+│                                             │
+│   BUTTER YELLOW   #F3D9A5                   │
+│   The warmth                                  │
+│                                             │
+│   WARM BEIGE      #E8D8C8                   │
+│   The balance                                │
+│                                             │
+│   IVORY           #F8F1E7                   │
+│   The canvas                                │
+│                                             │
+│   MOCHA BROWN     #3B241C                   │
+│   The typography                            │
+│                                             │
+└─────────────────────────────────────────────┘
+```
+
+The visual direction intentionally avoids the typical **black-and-neon developer aesthetic**.
+
+Instead, it uses:
+
+`soft gradients` · `glass surfaces` · `editorial typography` · `subtle motion` · `warm neutrals` · `quiet interactions`
+
+---
+
+## ✦ FEATURES
+
+* ◌ Luxury editorial interface
+* ◌ Responsive design
+* ◌ Animated loading experience
+* ◌ Scroll progress indicator
+* ◌ Interactive cursor glow
+* ◌ Floating particles
+* ◌ Glassmorphism surfaces
+* ◌ Section reveal animations
+* ◌ Grain / texture treatment
+* ◌ Active navigation highlighting
+* ◌ Light & dark theme support
+* ◌ GitHub contribution visualization
+* ◌ Project and research showcase
+* ◌ Responsive mobile experience
+
+---
+
+## 𓆩 ARCHITECTURE
+
+```text
+src/
+│
+├── components/
+│   ├── Navbar
+│   ├── Hero
+│   ├── About
+│   ├── Skills
+│   ├── Projects
+│   ├── Research
+│   ├── Achievements
+│   ├── Experience
+│   ├── GitHub
+│   ├── Leadership
+│   ├── Contact
+│   └── Footer
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+The application is structured as a collection of reusable sections, allowing the portfolio to evolve alongside new projects, research, and experiences.
+
+---
+
+## ✧ STACK
+
+```text
+React 18
+   │
+   ├── Vite
+   │
+   ├── TailwindCSS
+   │
+   ├── Framer Motion
+   │
+   ├── Lucide React
+   │
+   └── Modern JavaScript
+```
+
+### Typography
+
+The visual identity uses a combination of editorial serif and modern sans-serif typography, including:
+
+**Cormorant Garamond**
+**Playfair Display**
+**DM Sans**
+**Manrope**
+
+The result is intended to feel closer to an editorial publication than a traditional engineering dashboard.
+
+---
+
+## 𓂃 DEVELOPMENT
+
+### Clone
+
 ```bash
-# Clone / enter the project
-cd priyam-portfolio
+git clone https://github.com/ViivianREINE/PORTFOLIO-PRIYAM.git
+cd PORTFOLIO-PRIYAM
+```
 
-# Install dependencies
+### Install
+
+```bash
 npm install
+```
 
-# Start development server (http://localhost:5173)
+### Start
+
+```bash
 npm run dev
 ```
 
-### Build for Production
+### Build
+
 ```bash
 npm run build
+```
 
-# Preview production build locally
+### Preview
+
+```bash
 npm run preview
 ```
 
 ---
 
-## 🌐 Deployment
+## ✦ PHILOSOPHY
 
-### Deploy to Vercel (Recommended)
-
-**Option A — Vercel CLI:**
-```bash
-npm install -g vercel
-vercel login
-vercel --prod
+```text
+                 BUILD
+                   ↓
+              UNDERSTAND
+                   ↓
+                REFINE
+                   ↓
+                SIMPLIFY
+                   ↓
+                DELIVER
 ```
 
-**Option B — GitHub Integration:**
-1. Push this repo to GitHub
-2. Go to https://vercel.com/new
-3. Import your repository
-4. Build settings are auto-detected (Vite)
-5. Click **Deploy**
+I believe good technology is not only about what a system can do.
+
+It is also about:
+
+**how clearly it communicates,
+how thoughtfully it behaves,
+and how naturally people can interact with it.**
 
 ---
 
-### Deploy to Netlify
+## 𓆩 CURRENT INTERESTS
 
-**Option A — Netlify CLI:**
-```bash
-npm install -g netlify-cli
-netlify login
-npm run build
-netlify deploy --prod --dir=dist
-```
-
-**Option B — Netlify UI:**
-1. Push to GitHub
-2. Go to https://app.netlify.com
-3. New Site → Import from GitHub
-4. Build command: `npm run build`
-5. Publish directory: `dist`
-6. Click **Deploy Site**
-
----
-
-## 📁 Project Structure
-
-```
-src/
-├── assets/              # Personal photos
-├── components/
-│   ├── Navbar.jsx       # Sticky responsive navbar
-│   ├── Hero.jsx         # Animated landing with floating image
-│   ├── About.jsx        # About me with photo mosaic
-│   ├── Skills.jsx       # Animated skill cards grid
-│   ├── Projects.jsx     # Premium project showcase
-│   ├── Research.jsx     # Academic publications
-│   ├── Achievements.jsx # Awards & recognition
-│   ├── Experience.jsx   # Career timeline
-│   ├── GitHub.jsx       # GitHub activity & repos
-│   ├── Leadership.jsx   # Community roles
-│   ├── Contact.jsx      # Contact form
-│   └── Footer.jsx       # Footer
-├── App.jsx              # Root component + loading screen
-├── main.jsx             # Entry point
-└── index.css            # Global styles & design tokens
+```text
+Artificial Intelligence
+Machine Learning
+Generative AI
+Computer Vision
+Multimodal Systems
+Data Intelligence
+Biotechnology × AI
+Healthcare Technology
+Research & Innovation
+Creative Engineering
+Human-Centered Interfaces
 ```
 
 ---
 
-## ✨ Features
+## ✧ CONNECT
 
-- 🎨 **Loading Screen** with progress animation
-- 🖱️ **Cursor Glow** effect
-- 📊 **Scroll Progress** indicator
-- 🌊 **Floating Particle** animations in hero
-- 🔮 **Glassmorphism** cards
-- 📱 **Fully Responsive** — mobile, tablet, desktop
-- 🎭 **Section Reveal** animations with Framer Motion
-- 🌿 **Grain Texture** overlay for tactile depth
-- ⌨️ **Active Section** highlighting in navbar
-- 🎯 **GitHub Contribution** graph visualization
+<div align="center">
+
+### Let's build something intelligent.
+
+<br/>
+
+**Priyam Parashar**
+
+AI • Technology • Research • Engineering
+
+<br/>
+
+[Portfolio](https://portfolio-priyam-ten.vercel.app/)
+[GitHub](https://github.com/ViivianREINE)
+[LinkedIn](https://www.linkedin.com/in/priyam-parashar-5b0b67273/)
+
+<br/>
+
+`✦ building intelligent things, beautifully.`
+
+</div>
 
 ---
 
-## 🎨 Customization
+<div align="center">
 
-Edit `src/index.css` CSS variables to adjust the color palette:
-```css
-:root {
-  --cream: #FAF6F0;
-  --ivory: #F5EFE6;
-  --beige: #EDE0D0;
-  --blush: #F2D8D8;
-  --mocha: #8B6F5E;
-  --espresso: #5C3D2E;
-  --sand: #D4B896;
-}
+### 𓂃
+
+*Designed with curiosity.
+Engineered with intention.*
+
+<br/>
+
+**© Priyam Parashar**
+
+</div>
 ```
-
-Update content in each component file. Images go in `src/assets/`.
-
----
-
-## 📄 License
-
-Personal portfolio — all rights reserved by Priyam Parashar.
+This keeps the README visually consistent with the **actual portfolio's luxury/editorial direction**, rather than making it look like a generic AI/ML GitHub repository.
